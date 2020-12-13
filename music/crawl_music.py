@@ -12,4 +12,6 @@ url ='https://api.i-meto.com/meting/api?server=netease&type=playlist&id=21425805
 
 html = requests.get(url,'lxml')
 dict1 = json.loads(html.content)
-print(dict1)
+with open('music.txt','w',encoding='utf-8') as f:
+    for i in dict1:
+        f.write(i['title']+'\n')
