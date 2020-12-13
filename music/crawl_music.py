@@ -10,4 +10,6 @@ import json
 
 url ='https://api.i-meto.com/meting/api?server=netease&type=playlist&id=2142580576&r=0.8248415771905837'
 
-html = requests.get('')
+html = requests.get(url,'lxml')
+dict1 = json.loads(html.content)
+print(dict1)
