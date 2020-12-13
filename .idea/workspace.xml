@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="699b061b-05e9-4372-859b-af76348c0760" name="Default Changelist" comment="music">
-      <change afterPath="$PROJECT_DIR$/data/q3_2_data.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="699b061b-05e9-4372-859b-af76348c0760" name="Default Changelist" comment="final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +127,7 @@
       <workItem from="1607842614131" duration="2097000" />
       <workItem from="1607853141490" duration="6621000" />
       <workItem from="1607862831642" duration="3000" />
+      <workItem from="1607862967126" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="music">
       <created>1607838155614</created>
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607838293806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final">
+      <created>1607863176834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607863176834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,41 +170,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="music" />
-    <option name="LAST_COMMIT_MESSAGE" value="music" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1536" height="317" key="GridCell.Tab.0.bottom" timestamp="1607862101439">
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1607863322306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1607852698458">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1607852698458" />
-    <state width="1536" height="317" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1607862101439" />
-    <state width="1536" height="317" key="GridCell.Tab.0.center" timestamp="1607862101437">
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1607863322306" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1607863322306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1607852698457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.center.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1607852698457" />
-    <state width="1536" height="317" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1607862101437" />
-    <state width="1536" height="317" key="GridCell.Tab.0.left" timestamp="1607862101437">
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1607863322306" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1607863322305">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1607852698457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.left.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1607852698457" />
-    <state width="1536" height="317" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1607862101437" />
-    <state width="1536" height="317" key="GridCell.Tab.0.right" timestamp="1607862101438">
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1607863322305" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1607863322306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1607852698457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1536" height="271" key="GridCell.Tab.0.right.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1607852698457" />
-    <state width="1536" height="317" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607862101438" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607863322306" />
     <state width="1536" height="317" key="GridCell.Tab.1.bottom" timestamp="1607862101441">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -219,24 +226,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1607843180229" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1607863180140">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607863180140" />
     <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1607856083876">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1607856083876" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>151</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/m_cla$main.coverage" NAME="main Coverage Results" MODIFIED="1607863149424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/m_cla$main.coverage" NAME="main Coverage Results" MODIFIED="1607863486396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/m_cla$crawl_music.coverage" NAME="crawl_music Coverage Results" MODIFIED="1607841469270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/music" />
   </component>
 </project>

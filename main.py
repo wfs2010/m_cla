@@ -164,7 +164,7 @@ def train(model,loss_fn,optimizer,dataloader,num_epochs=1):
             score = model(x_var)
             loss = loss_fn(score,y_var)
             if (t+1) % print_every ==0:
-                print_every('t=%d,loss=%.4f' % (t+1,loss.item))
+                print('t=%d,loss=%.4f' % (t+1,loss.item()))
             #
             optimizer.zero_grad()
             loss.backward()
@@ -181,6 +181,7 @@ if __name__ == '__main__':
     fixed_model.apply(reset)
     fixed_model.train()
     train(fixed_model,loss_fn,optimizer,image_dataloader_train,1)
+    check_accuracy(fixed_model, image_dataloader_val)
     # pass
 
 
